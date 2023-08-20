@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["src"],
+    "outDir": "dist",
+    "lib": ["es2020"],
+    "esModuleInterop": true,
+    "types": ["node"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "NodeNext"
+  },
+  "ts-node": {
+    "esm": true
+  }
+}
